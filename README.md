@@ -44,20 +44,20 @@ The system is built with a decoupled architecture to ensure scalability and clea
 ## 🏁 Getting Started
 
 ### 1. Backend Setup
-Navigate to the backend directory and install dependencies:
+Install python, fastapi and uvicorn. Navigate to the backend directory and install dependencies:
 
 ```bash
 cd backend
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install fastapi uvicorn beautifulsoup4 requests
+pip install fastapi uvicorn
 uvicorn api:app --reload
 ```
 
 ### 2. Frontend Setup
-Install node and angular CLI:
+Install node and angular CLI.
 
 ```bash
-cd Frontend
+cd Frontend/crawler-ui/
 npm start
 ```
