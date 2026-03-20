@@ -1,6 +1,8 @@
 # 🕸️ Web-Data-Harvesting & Scanning Tool
 
 [![Angular](https://img.shields.io/badge/Frontend-Angular%2017-DD0031?style=flat-square&logo=angular)](https://angular.io/)
+[![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Sass](https://img.shields.io/badge/Styles-SCSS-CC6699?style=flat-square&logo=sass&logoColor=white)](https://sass-lang.com/)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Python](https://img.shields.io/badge/Language-Python%203.10+-3776AB?style=flat-square&logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
@@ -64,11 +66,15 @@ The multithreaded engine parses the target and returns a structured link hierarc
 
 ## 🏁 Installation & Setup
 
-### Prerequisites
-* **Node.js**: `v20.x` or higher (Recommended for Angular 21)
-* **npm**: `v10.9.4` (As specified in `packageManager`)
-* **Python**: `3.10+`
-* **Angular CLI**: `v21.2.2` or higher
+### 📋 Prerequisites
+
+To develop or run this project locally, you need the following environment:
+
+* **Runtime**: [Node.js](https://nodejs.org/) `v20.x` or higher (LTS recommended).
+* **Package Manager**: `npm v10.9.4` (included with Node).
+* **Language Engine**: [Python](https://www.python.org/) `3.10+` for the backend crawler.
+* **Global CLI**: [Angular CLI](https://angular.io/cli) `v21.2.2` (Install via `npm install -g @angular/cli`).
+* **Styling**: SCSS (Processed via Angular's built-in build pipeline).
 
 ### 1. Frontend Deployment
 ```bash
