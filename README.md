@@ -92,6 +92,8 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install fastapi uvicorn
 uvicorn main:app --reload --port 8000
 ```
+---
 
+## Comparison with Existing Tools
 <img width="830" height="710" alt="image" src="https://github.com/user-attachments/assets/b19d1b60-89f3-45fb-a142-5f2d548237f2" />
 
