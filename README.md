@@ -1,4 +1,4 @@
-# 🕸️ Web-Data-Harvesting & Scanning Tool
+# 🕸️ Web Data Harvesting & Scanning Tool
 
 [![Angular](https://img.shields.io/badge/Frontend-Angular%2021-DD0031?style=flat-square&logo=angular)](https://angular.io/)
 [![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
