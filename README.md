@@ -4,7 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Sass](https://img.shields.io/badge/Styles-SCSS-CC6699?style=flat-square&logo=sass&logoColor=white)](https://sass-lang.com/)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com/)
-[![Python](https://img.shields.io/badge/Language-Python%203.10+-3776AB?style=flat-square&logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Language-Python%203.14+-3776AB?style=flat-square&logo=python)](https://www.python.org/)
 
 An enterprise-grade, **Multithreaded** web crawling solution designed for high-performance link extraction and site analysis. This project demonstrates a decoupled microservice architecture, utilizing a reactive **Angular** frontend and a high-concurrency **FastAPI** backend optimized for parallel data processing.
 
