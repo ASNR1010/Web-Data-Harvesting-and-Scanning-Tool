@@ -26,7 +26,7 @@ The application utilizes a hybrid execution model to maximize throughput and min
 | Component | Technology | Role |
 | :--- | :--- | :--- |
 | **Frontend** | Angular, TypeScript, SCSS | Reactive UI & State Management |
-| **Backend** | FastAPI, Python 3.10+ | Async Request Handling & API Routing |
+| **Backend** | FastAPI, Python 3.14+ | Async Request Handling & API Routing |
 | **Concurrency** | `threading` / `concurrent.futures` | **Multithreaded** parallel crawling logic |
 | **Server** | Uvicorn | ASGI High-Performance Server |
 
@@ -71,7 +71,7 @@ To develop or run this project locally, you need the following environment:
 
 * **Runtime**: [Node.js](https://nodejs.org/) `v20.x` or higher (LTS recommended).
 * **Package Manager**: `npm v10.9.4` (included with Node).
-* **Language Engine**: [Python](https://www.python.org/) `3.10+` for the backend crawler.
+* **Language Engine**: [Python](https://www.python.org/) `3.14+` for the backend crawler.
 * **Global CLI**: [Angular CLI](https://angular.io/cli) `v21.2.2` (Install via `npm install -g @angular/cli`).
 * **Styling**: SCSS (Processed via Angular's built-in build pipeline).
 
@@ -82,14 +82,14 @@ npm install
 npm start
 ```
 
-### 1. Backend Deployment
+### 2. Backend Deployment
 ```bash
 cd backend
 python -m venv venv
 # Activate environment
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install fastapi uvicorn
-uvicorn main:app --reload --port 8000
+uvicorn api:app --reload
 ```
 ---
 
